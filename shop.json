@@ -1,0 +1,20 @@
+{
+  "_readme": "星寻影像小工具 · 卖线入口的远程配置。改这个文件 = 改 App 里的卖线卡片，不用重新打包、不用等用户更新。改完推到 GitHub，App 那边最多 6 小时生效（一般是下一次打开就生效）。",
+  "_readme_fields": {
+    "enabled": "true=显示这张卡；false=整张卡消失（含「即将上架」也不显示）",
+    "url": "店铺链接。留空 = 显示「即将上架 + 加微信」；填了才出现「去下单」按钮。必须是 https 开头，且域名在 App 的白名单里，否则 App 一律当没填（防别人篡改把用户带去别的页面）",
+    "title": "卡片标题",
+    "subtitle": "标题下面一行小字",
+    "price": "价格文案，直接显示。留空就不显示",
+    "notice": "补充说明。没开通时它是主文案；开通后它是按钮下面那行小字"
+  },
+  "_readme_url_whitelist": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com",
+  "_readme_example": "微信直卖阶段还没店铺链接，就先留空；等抖音小店开好，把 url 改成 \"https://haohuo.jinritemai.com/views/product/detail?id=xxxx\" 这样，price 改成 \"¥49.9 含软件激活码\"。",
+
+  "enabled": true,
+  "url": "",
+  "title": "内录音频线 · 带解码芯片",
+  "subtitle": "Type-C 转 6.35mm，插上就能内录",
+  "price": "",
+  "notice": "正在挑一批稳定的线，过几天这里可以直接下单。急着要的话先加微信，我帮你挑一根现成的。"
+}

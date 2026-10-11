@@ -9,12 +9,12 @@
     "notice": "补充说明。没开通时它是主文案；开通后它是按钮下面那行小字"
   },
   "_readme_url_whitelist": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com",
-  "_readme_example": "微信直卖阶段还没店铺链接，就先留空；等抖音小店开好，把 url 改成 \"https://haohuo.jinritemai.com/views/product/detail?id=xxxx\" 这样，price 改成 \"¥49.9 含软件激活码\"。",
+  "_readme_example": "微信小店商品页链接长这样：https://store.weixin.qq.com/shop/a/xxxxx。要临时关掉入口，把 enabled 改成 false，或把 url 清空。",
 
   "enabled": true,
-  "url": "",
+  "url": "https://store.weixin.qq.com/shop/a/b9s2PkhM4CgKBxw",
   "title": "内录音频线 · 带解码芯片",
   "subtitle": "Type-C 转 6.35mm，插上就能内录",
-  "price": "",
-  "notice": "正在挑一批稳定的线，过几天这里可以直接下单。急着要的话先加微信，我帮你挑一根现成的。"
+  "price": "¥49.9 包邮",
+  "notice": "48 小时内发出 · 随线附赠软件激活码 · 有问题加微信 bzm921"
 }

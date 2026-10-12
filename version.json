@@ -15,11 +15,10 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-
   "latest_code": 27,
   "version_name": "1.8.7",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3300192,
+  "size_bytes": 3300197,
   "force": false,
   "changelog": [
     "监听延迟大幅降低：有线耳机下从约 350 毫秒降到约 100 毫秒",

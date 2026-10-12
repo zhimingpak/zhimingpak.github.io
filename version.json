@@ -1,0 +1,29 @@
+{
+  "_readme": "星寻影像小工具 · 应用内更新的远程配置。用户打开 App 进设置页时会拉这份文件，发现 latest_code 比自己装的版本大，就显示一张「有新版本」卡片。改这个文件 = 改所有已装用户看到的更新提示，不用重新打包。",
+  "_readme_发版顺序": "① 出新 APK → ② 用新 APK 覆盖仓库根目录的 starseek-latest.apk → ③ 改这里的 latest_code / version_name / size_bytes / changelog → ④ 推到 GitHub。App 那边最多 2 小时生效（一般是下次打开就变了）。顺序别反：先改 JSON 再传包，会让用户在这段时间里下载到旧包。",
+  "_readme_字段": {
+    "latest_code": "最关键的一个。必须等于新 APK 的 versionCode（app/build.gradle.kts 里的 versionCode），不是版本名。填成旧的 = 用户永远收不到提示；填成未来的 = 用户会反复收到一个装不上的提示。",
+    "version_name": "给人看的版本号，比如 1.8.7。显示用，不参与判断。",
+    "apk_url": "APK 下载直链。必须是 https 开头、且域名在 App 的白名单里，否则 App 一律当没填。现在用的是仓库里的 starseek-latest.apk —— 特意用英文名，中文文件名在 URL 里各种编码坑。",
+    "size_bytes": "包大小，只用来显示「约 3.1 MB」。写得不准也不影响下载。",
+    "force": "true 时卡片上多一个「建议更新」角标。**不会**变成强制弹窗——这个 App 从不做强制更新，用户在现场录音时不能被弹窗打断。",
+    "changelog": "更新日志，一行一条。写成 JSON 数组（规范）或多行字符串（更好改，不会因为末尾多了个逗号就整个文件解析失败）都行。"
+  },
+  "_readme_别做的事": [
+    "别把 latest_code 改成比实际 APK 更小的数——用户会永远收不到这次更新",
+    "别删掉 apk_url 或把它留空——等于没有更新",
+    "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
+  ],
+  "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
+
+  "latest_code": 27,
+  "version_name": "1.8.7",
+  "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
+  "size_bytes": 3300192,
+  "force": false,
+  "changelog": [
+    "监听延迟大幅降低：有线耳机下从约 350 毫秒降到约 100 毫秒",
+    "修复部分机型 16 位录音时采集缓冲区异常变大的问题",
+    "新增应用内更新：设置页可一键下载安装新版本"
+  ]
+}

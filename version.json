@@ -15,14 +15,17 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 27,
-  "version_name": "1.8.7",
+  "latest_code": 31,
+  "version_name": "1.10.0",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3300197,
+  "size_bytes": 3369538,
   "force": false,
   "changelog": [
-    "监听延迟大幅降低：有线耳机下从约 350 毫秒降到约 100 毫秒",
-    "修复部分机型 16 位录音时采集缓冲区异常变大的问题",
-    "新增应用内更新：设置页可一键下载安装新版本"
+    "配色改为分区：录音=蓝色亮调（回到 1.8.x 那套通透浅蓝，电平波形最清楚）、照片=橙红亮调、时码器=黄色暗调",
+    "新增「时码器 / Tally」模块：多机对时、漂移帧数、PGM/PVW 灯、场记打点（当前为演示数据，硬件到位后换真数据）",
+    "设备墙：主机时码大数 + 2 列设备卡，每台给出时码、差几帧、电量、信号格；漂移超 1 帧卡片变红",
+    "同步设置：帧率（含 23.976 / 29.97 丢帧）、用户位 UB、频道组、自动补对时，四套常用预设一点套用",
+    "场记单：随时打点记当前时码，倒序列出，方便回素材",
+    "统一顶栏/底栏/弹层保留，自动跟随所在模块的配色"
   ]
 }

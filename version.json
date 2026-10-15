@@ -15,17 +15,14 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 31,
-  "version_name": "1.10.0",
+  "latest_code": 32,
+  "version_name": "1.10.1",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3369538,
+  "size_bytes": 3300407,
   "force": false,
   "changelog": [
-    "配色改为分区：录音=蓝色亮调（回到 1.8.x 那套通透浅蓝，电平波形最清楚）、照片=橙红亮调、时码器=黄色暗调",
-    "新增「时码器 / Tally」模块：多机对时、漂移帧数、PGM/PVW 灯、场记打点（当前为演示数据，硬件到位后换真数据）",
-    "设备墙：主机时码大数 + 2 列设备卡，每台给出时码、差几帧、电量、信号格；漂移超 1 帧卡片变红",
-    "同步设置：帧率（含 23.976 / 29.97 丢帧）、用户位 UB、频道组、自动补对时，四套常用预设一点套用",
-    "场记单：随时打点记当前时码，倒序列出，方便回素材",
-    "统一顶栏/底栏/弹层保留，自动跟随所在模块的配色"
+    "【修复】录音结束后偶发不生成文件：收尾阶段媒体库写入失败时，旧版会把已录数据删掉却仍显示「已保存」。现在只有文件真正存入媒体库才算成功；失败时保留原文件并如实提示「保存失败」，不会再丢录音",
+    "保留 1.9 全部功能：录音可自选保存位置（音乐 / 录音 / 下载 / 文档 + 自定义子文件夹）、MP3 导出（128 / 192 / 320k）、默认录音格式记忆、接线指南挪进录音模块",
+    "【注意】本版基于 1.9 稳定分支，不含 1.10.0 的「时码器 / Tally、设备墙、同步设置、配色分区」；如需时码器请保留 1.10.0"
   ]
 }

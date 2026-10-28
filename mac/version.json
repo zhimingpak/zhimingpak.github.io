@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "首个 Mac 版：素材备份（多文件合并任务 / 部分素材勾选 / 缩略图预览）、FCPX 资源库清理、存储体检，已内置在线更新",
+  "notes": "FCPX 清理支持拖入单个工程文件（自动定位所属资源库）\n扫描/清理大幅提速：单库一次遍历、多库并行、缓存直接删除\n存储体检并入素材备份模块（工具栏入口）",
   "publishedAt": "2026-10-28",
   "minSystem": "13.0",
-  "size_bytes": 1392199,
-  "sha256": "9287a38eb09394bc8af1bd9ef2e05d326abf226c80823dfbcedfc050688224d7",
+  "size_bytes": 1417011,
+  "sha256": "f9bb409f4322f06c5f8ea8c07f99f4268372fb52a44afade8fde9b5fb3f253a4",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

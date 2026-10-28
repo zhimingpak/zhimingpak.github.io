@@ -1,0 +1,21 @@
+{
+  "_readme": "星寻 Mac · 应用内更新的远程配置。App 启动时会拉这份文件（GitHub Pages 直连可用，不需要代理），发现 version 比自己装的版本高就提示更新。改这个文件 = 改所有已装用户看到的更新提示。",
+  "_readme_发版顺序": "① 出新包 → ② 覆盖 mac/StarryMac-latest.zip → ③ 改这里的 version / size_bytes / sha256 / notes → ④ 推到 GitHub Pages。顺序别反：先改 JSON 再传包，会让用户在这段时间里下载到旧包。",
+  "_readme_字段": {
+    "version": "给人看也用于比较的版本号，必须和 App 的 CFBundleShortVersionString 一致（如 1.2.0）",
+    "downloadURL": "zip 直链。现在指向仓库里的 mac/StarryMac-latest.zip，用英文名避免 URL 编码问题",
+    "notes": "更新说明，显示在 App 的更新弹窗里，一行一条",
+    "size_bytes": "包大小，仅用于显示",
+    "sha256": "包校验值，仅用于人工核对（App 目前不做强制校验）",
+    "publishedAt": "发布日期",
+    "minSystem": "最低系统版本"
+  },
+  "version": "1.2.0",
+  "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
+  "notes": "首个 Mac 版：\n· 素材备份：多文件合并为一个任务、可勾选部分素材、视频缩略图预览、目标可新建文件夹、一键打开备份文件夹\n· 存储体检：本机与 NAS 容量、挂载状态\n· FCPX 清理：资源库渲染/优化媒体/缩略图缓存，绿色条显示可清理占比，清理进回收站可恢复\n· 在线更新：菜单「检查更新…」（⌘⇧U）",
+  "publishedAt": "2026-10-28",
+  "minSystem": "13.0",
+  "size_bytes": 1386311,
+  "sha256": "548e2735b15ba7924dd9d193624979dfe925213b14b6efd912dce6728f4abbd4",
+  "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
+}

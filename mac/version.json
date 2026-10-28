@@ -15,7 +15,7 @@
   "notes": "首个 Mac 版：\n· 素材备份：多文件合并为一个任务、可勾选部分素材、视频缩略图预览、目标可新建文件夹、一键打开备份文件夹\n· 存储体检：本机与 NAS 容量、挂载状态\n· FCPX 清理：资源库渲染/优化媒体/缩略图缓存，绿色条显示可清理占比，清理进回收站可恢复\n· 在线更新：菜单「检查更新…」（⌘⇧U）",
   "publishedAt": "2026-10-28",
   "minSystem": "13.0",
-  "size_bytes": 1386311,
-  "sha256": "548e2735b15ba7924dd9d193624979dfe925213b14b6efd912dce6728f4abbd4",
+  "size_bytes": 1388547,
+  "sha256": "d38e2056c8b998472de55c2b22f739a7ee365345dc21034275ecbe4ac103a7ae",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

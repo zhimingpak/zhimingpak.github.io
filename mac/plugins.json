@@ -1,14 +1,47 @@
 {
   "plugins": [
     {
+      "id": "com.starry.mediabackup",
+      "title": "素材备份",
+      "subtitle": "批量拷贝到 NAS 并逐文件哈希校验",
+      "version": "1.3.1",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/Backup-1.3.1.zip",
+      "sha256": "9a124003e2a1b8e5e88af8e4d5cf46cf115f25d259af4e327a5a4e8378e4c0e9",
+      "sizeBytes": 690661,
+      "notes": "",
+      "minHostVersion": "1.3.0"
+    },
+    {
       "id": "com.starry.phototool",
       "title": "图片工具",
       "subtitle": "加 LOGO / 长图 / 裁切",
-      "version": "1.0.0",
-      "downloadURL": "https://zhimingpak.github.io/mac/plugins/PhotoTool-1.0.0.zip",
-      "sha256": "0e605b0606fae64d398c0e4d1fa32bf4c97b522c94fe24527992fae1ce05948e",
-      "sizeBytes": 197990,
-      "notes": "图片工具改为独立插件，可单独更新",
+      "version": "1.3.1",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/PhotoTool-1.3.1.zip",
+      "sha256": "b0156b6751e3f4bd653495b17ea34d1c4702c771caeebaa8c4bcb5086262a487",
+      "sizeBytes": 220526,
+      "notes": "",
+      "minHostVersion": "1.3.0"
+    },
+    {
+      "id": "com.starry.audioremix",
+      "title": "音频调整",
+      "subtitle": "智能缩曲 / 扩曲，无痕衔接",
+      "version": "1.3.1",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/Audio-1.3.1.zip",
+      "sha256": "ef2461778e8cbabb95298f24cb4a8d22924033b1886fa35fa78cea907f711a7b",
+      "sizeBytes": 364577,
+      "notes": "",
+      "minHostVersion": "1.3.0"
+    },
+    {
+      "id": "com.starry.fcpxcleaner",
+      "title": "FCPX 清理",
+      "subtitle": "清理 Final Cut Pro 资源库缓存",
+      "version": "1.3.1",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPX-1.3.1.zip",
+      "sha256": "e30865c6d051c638a05a5d2ad0d9df6391d40d99a78c11ca798939a4ea84c631",
+      "sizeBytes": 247780,
+      "notes": "",
       "minHostVersion": "1.3.0"
     }
   ],

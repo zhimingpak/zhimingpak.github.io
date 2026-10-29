@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.3.0",
+  "version": "1.3.1",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "新增插件架构：功能模块可独立打包、单独下发更新\n图片工具改为独立插件（.starryplugin），其余模块和宿主不受影响\n音频调整：无痕拼接重构，缩曲 30±5 秒、接缝 0 处或电平差 <0.5dB\n菜单新增「插件管理…」（⌘⇧P）",
+  "notes": "全部功能模块改为插件：素材备份 / 图片工具 / FCPX 清理 / 音频调整\n宿主只保留外壳，四个插件可各自单独更新\n菜单「插件管理…」（⌘⇧P）可查看版本、路径、检查更新",
   "publishedAt": "2026-10-29",
   "minSystem": "13.0",
-  "size_bytes": 2010040,
-  "sha256": "1c40ee712032b2b971c420d6716eeba76807a943368524a606dc4392e1ad322c",
+  "size_bytes": 2261649,
+  "sha256": "2d25b494f9b6f1de788531f813f3c897a6faad0df27b9cabbd50d1c1c1be0cdf",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

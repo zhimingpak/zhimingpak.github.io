@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.2.3",
+  "version": "1.2.4",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "新增图片工具：加 LOGO（九宫格定位/批量）、长图（纵横/对齐/间距/背景色）、裁切（7 种比例，同框批量套用）\n更新窗口：可量化下载进度、失败原因与建议、关闭不中断",
-  "publishedAt": "2026-10-28",
+  "notes": "新增音频调整模块：智能缩曲 / 扩曲\n· 本地分析 BPM、小节线与段落（主歌/副歌/前奏/间奏/尾奏），段落标签可手动修正\n· 缩曲按优先级删段落、扩曲复制高相似段落，切割严格对齐小节，不变速不变调\n· 支持试听与导出 WAV，同一首歌二次分析走缓存",
+  "publishedAt": "2026-10-29",
   "minSystem": "13.0",
-  "size_bytes": 1597289,
-  "sha256": "014545928aa4b4ff49e50b7789e79bb39855688460c9628161eca97842729529",
+  "size_bytes": 1764739,
+  "sha256": "b54a149fad847d6a12f81be1b67137c6f8cc992d238402e13e3a2c06bd81c3c1",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

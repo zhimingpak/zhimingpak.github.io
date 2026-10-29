@@ -48,11 +48,11 @@
       "id": "com.starry.fcpluginmanager",
       "title": "FCPX 插件",
       "subtitle": "查看 / 改名 / 删除 FCPX 插件",
-      "version": "1.3.2",
-      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPluginManager-1.3.2.zip",
-      "sha256": "3011fcca58498ef156c6c05d418db27d1552ab88b5d4d96374319d433c508b6d",
-      "sizeBytes": 172780,
-      "notes": "",
+      "version": "1.3.3",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPluginManager-1.3.3.zip",
+      "sha256": "985583afa7836fc62f3bab23c8ff6a0455c2c0c952f19ede2a0d53d846c368e4",
+      "sizeBytes": 178834,
+      "notes": "系统级插件也能改名/卸载（管理员授权）；修复系统模板目录 Templates.localized 漏扫，插件从 709 增至 2114 个",
       "minHostVersion": "1.3.0"
     }
   ],

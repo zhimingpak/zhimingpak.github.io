@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.3.4",
+  "version": "1.3.5",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "FCPX 插件改为按安装包粒度：一个安装包算一个插件（116 个），不再把包内每个效果拆成独立条目；需要时可用「展开包内效果」查看细项",
+  "notes": "FCPX 插件界面改版：左侧分类栏、中间插件表格、右侧竖排操作按钮，标题栏 + 搜索框置顶",
   "publishedAt": "2026-10-29",
   "minSystem": "13.0",
-  "size_bytes": 2447019,
-  "sha256": "52f6160e11c6ab61050ff8b30409532f2f4b63a3789067706a3f969cd5087d91",
+  "size_bytes": 2469664,
+  "sha256": "3ca403d26cfd19ba97b4da6f6c80b37472592b4e0c6a10bc2ca59535e497f97f",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

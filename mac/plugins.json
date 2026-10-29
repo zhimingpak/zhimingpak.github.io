@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "id": "com.starry.phototool",
+      "title": "图片工具",
+      "subtitle": "加 LOGO / 长图 / 裁切",
+      "version": "1.0.0",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/PhotoTool-1.0.0.zip",
+      "sha256": "0e605b0606fae64d398c0e4d1fa32bf4c97b522c94fe24527992fae1ce05948e",
+      "sizeBytes": 197990,
+      "notes": "图片工具改为独立插件，可单独更新",
+      "minHostVersion": "1.3.0"
+    }
+  ],
+  "updatedAt": "2026-10-29"
+}

@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.2.5",
+  "version": "1.3.0",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "音频调整：时间线可拖动定位、播放头跟随、拖动段落分界改时长、拖动方案右边缘改输出时长\n识别准确度提升：BPM 倍频校正、动态规划拍点跟踪（长音频不再漂移）、多尺度分段并吸附 4 小节网格、主歌副歌按能量/亮度聚类判定\n新增播放原曲、单段试听、方案试听，段落边界与标签都可手动修正",
+  "notes": "新增插件架构：功能模块可独立打包、单独下发更新\n图片工具改为独立插件（.starryplugin），其余模块和宿主不受影响\n音频调整：无痕拼接重构，缩曲 30±5 秒、接缝 0 处或电平差 <0.5dB\n菜单新增「插件管理…」（⌘⇧P）",
   "publishedAt": "2026-10-29",
   "minSystem": "13.0",
-  "size_bytes": 1846084,
-  "sha256": "b5913dbab9e9414577d929e72ef79ecebc2c4e7037b4a11fab131be7b3b48300",
+  "size_bytes": 2010040,
+  "sha256": "1c40ee712032b2b971c420d6716eeba76807a943368524a606dc4392e1ad322c",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

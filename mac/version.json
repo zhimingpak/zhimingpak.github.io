@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.4.2",
+  "version": "1.5.0",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "音频 Remix 对齐 WaveMix：气口对齐（不切在正唱着的地方）、接缝响度自动对齐、导出 CUE/SRT 段落标记",
+  "notes": "新增「视频下载」模块：B 站 / 抖音 / 小红书 / YouTube，支持整段分享文案粘贴、多任务并发、无水印直链（抖音内置解析）。同时同步全部插件到线上。",
   "publishedAt": "2026-10-30",
   "minSystem": "13.0",
-  "size_bytes": 2579747,
-  "sha256": "95c96f21d9b73e1846d30bc8bfcf3f07d88f5c98950c8da9c6264b629a70ddfe",
+  "size_bytes": 3022919,
+  "sha256": "d10614ec4d9e52d756f118c26473367aaee8d35ce3e125af9be5e923dd7063fa",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

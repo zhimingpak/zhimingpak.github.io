@@ -6,9 +6,9 @@
       "subtitle": "批量拷贝到 NAS 并逐文件哈希校验",
       "version": "1.3.2",
       "downloadURL": "https://zhimingpak.github.io/mac/plugins/Backup-1.3.2.zip",
-      "sha256": "6be32c6463afbb4418868f7f7e42e911e1f65b96898ba94ec8679e1b151f85e8",
+      "sha256": "205366a655cb8486ac2a5ef0d797ac3e086899bfded3e931eb2a7f38d563c524",
       "sizeBytes": 690664,
-      "notes": "",
+      "notes": "发版 1.5.0 同步",
       "minHostVersion": "1.3.0"
     },
     {
@@ -17,31 +17,9 @@
       "subtitle": "加 LOGO / 长图 / 裁切",
       "version": "1.3.2",
       "downloadURL": "https://zhimingpak.github.io/mac/plugins/PhotoTool-1.3.2.zip",
-      "sha256": "550ffa214b574ccca7f5f9ab654657d39f3f567ced2850fa73c7d695a3ecabf7",
+      "sha256": "a3e9d22087b71540610a8bf075ef5ffdc77528e8c860df3bce12d6f5ac5ee586",
       "sizeBytes": 220524,
-      "notes": "",
-      "minHostVersion": "1.3.0"
-    },
-    {
-      "id": "com.starry.fcpxcleaner",
-      "title": "FCPX 清理",
-      "subtitle": "清理 Final Cut Pro 资源库缓存",
-      "version": "1.3.2",
-      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPX-1.3.2.zip",
-      "sha256": "29328e953e8af3cb1068e041d7be75f70a88e96ec8d6dafad7e9bd979a953de3",
-      "sizeBytes": 247780,
-      "notes": "",
-      "minHostVersion": "1.3.0"
-    },
-    {
-      "id": "com.starry.fcpluginmanager",
-      "title": "FCPX 插件",
-      "subtitle": "查看 / 改名 / 删除 FCPX 插件",
-      "version": "1.3.5",
-      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPluginManager-1.3.5.zip",
-      "sha256": "6836353b272e9a8d6e045a9b1f5e3819d9e5f97033c3cc0f7ffdca304fbd9b42",
-      "sizeBytes": 207309,
-      "notes": "界面改为左侧分类 + 中间表格 + 右侧操作按钮；默认选中首行",
+      "notes": "发版 1.5.0 同步",
       "minHostVersion": "1.3.0"
     },
     {
@@ -50,9 +28,42 @@
       "subtitle": "智能缩曲 / 扩曲，无痕衔接",
       "version": "1.4.2",
       "downloadURL": "https://zhimingpak.github.io/mac/plugins/Audio-1.4.2.zip",
-      "sha256": "f0a36c9d537603b58c08fea52cdfb3243d8b39e154ff853b4ea69889d83f3bf3",
+      "sha256": "bd2d93ddf3b69f4fe1c232f596a96b648bc640693856837c09884d3928c47d3c",
       "sizeBytes": 474658,
-      "notes": "气口对齐：切点优先落在人声停顿处；接缝响度自动对齐；可导出 CUE/SRT 段落标记",
+      "notes": "发版 1.5.0 同步",
+      "minHostVersion": "1.3.0"
+    },
+    {
+      "id": "com.starry.fcpxcleaner",
+      "title": "FCPX 清理",
+      "subtitle": "清理 Final Cut Pro 资源库缓存",
+      "version": "1.3.2",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPX-1.3.2.zip",
+      "sha256": "295f848f42ecc54a173f03a265f3140e962b2a881fa3a46fadb5a3f3c055cb88",
+      "sizeBytes": 247780,
+      "notes": "发版 1.5.0 同步",
+      "minHostVersion": "1.3.0"
+    },
+    {
+      "id": "com.starry.fcpluginmanager",
+      "title": "FCPX 插件",
+      "subtitle": "查看 / 改名 / 删除 FCPX 插件",
+      "version": "1.3.5",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/FCPluginManager-1.3.5.zip",
+      "sha256": "c411cc924199942545ac24b53fcf5759f270f01f4a190a02ccf7945edac0a61d",
+      "sizeBytes": 207309,
+      "notes": "发版 1.5.0 同步",
+      "minHostVersion": "1.3.0"
+    },
+    {
+      "id": "com.starry.videodownload",
+      "title": "视频下载",
+      "subtitle": "B 站 / 抖音 / 小红书 / YouTube",
+      "version": "1.0.2",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/VideoDownload-1.0.2.zip",
+      "sha256": "d12f15d5dc5f5f4b1618d92f11f0392e8f3af2040d40c6bb55e3cf0d3fdf464a",
+      "sizeBytes": 442462,
+      "notes": "发版 1.5.0 同步",
       "minHostVersion": "1.3.0"
     }
   ],

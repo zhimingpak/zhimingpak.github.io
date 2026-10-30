@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "音频 Remix 内核重写：以 4 小节乐句为最小编辑单位，不再把副歌切成半句；完整段落优先、结尾收束自然；新增乐句长度与最大偏差设置",
+  "notes": "音频 Remix 对齐 WaveMix：气口对齐（不切在正唱着的地方）、接缝响度自动对齐、导出 CUE/SRT 段落标记",
   "publishedAt": "2026-10-30",
   "minSystem": "13.0",
-  "size_bytes": 2566727,
-  "sha256": "384ef8cf583af9c83cb9815056ec149a2ea0e0df6d63e6870a6a097dc8886b32",
+  "size_bytes": 2579747,
+  "sha256": "95c96f21d9b73e1846d30bc8bfcf3f07d88f5c98950c8da9c6264b629a70ddfe",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

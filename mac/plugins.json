@@ -23,17 +23,6 @@
       "minHostVersion": "1.3.0"
     },
     {
-      "id": "com.starry.audioremix",
-      "title": "音频调整",
-      "subtitle": "智能缩曲 / 扩曲，无痕衔接",
-      "version": "1.3.2",
-      "downloadURL": "https://zhimingpak.github.io/mac/plugins/Audio-1.3.2.zip",
-      "sha256": "caefff86a64c48ccc0dc0f7d4afa32fc3682e81737e269d34aec33959ec23cf2",
-      "sizeBytes": 364576,
-      "notes": "",
-      "minHostVersion": "1.3.0"
-    },
-    {
       "id": "com.starry.fcpxcleaner",
       "title": "FCPX 清理",
       "subtitle": "清理 Final Cut Pro 资源库缓存",
@@ -54,7 +43,18 @@
       "sizeBytes": 207309,
       "notes": "界面改为左侧分类 + 中间表格 + 右侧操作按钮；默认选中首行",
       "minHostVersion": "1.3.0"
+    },
+    {
+      "id": "com.starry.audioremix",
+      "title": "音频调整",
+      "subtitle": "智能缩曲 / 扩曲，无痕衔接",
+      "version": "1.4.0",
+      "downloadURL": "https://zhimingpak.github.io/mac/plugins/Audio-1.4.0.zip",
+      "sha256": "96d92bc3b843ab1d86ea28ca3544c2835fad1a96e2c1dfbca26fd5ef349b4cc3",
+      "sizeBytes": 433935,
+      "notes": "按 Audition Remix 重做：单轨片段，拖右边缘改时长；变体方案；保留开头/结尾",
+      "minHostVersion": "1.3.0"
     }
   ],
-  "updatedAt": "2026-10-29"
+  "updatedAt": "2026-10-30"
 }

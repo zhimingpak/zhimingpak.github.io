@@ -10,12 +10,12 @@
     "publishedAt": "发布日期",
     "minSystem": "最低系统版本"
   },
-  "version": "1.3.5",
+  "version": "1.4.0",
   "downloadURL": "https://zhimingpak.github.io/mac/StarryMac-latest.zip",
-  "notes": "FCPX 插件界面改版：左侧分类栏、中间插件表格、右侧竖排操作按钮，标题栏 + 搜索框置顶",
-  "publishedAt": "2026-10-29",
+  "notes": "音频调整按 Audition「重新混合」重做：单轨片段 + 拖边缘改时长 + 变体方案 + 保留首尾",
+  "publishedAt": "2026-10-30",
   "minSystem": "13.0",
-  "size_bytes": 2469664,
-  "sha256": "3ca403d26cfd19ba97b4da6f6c80b37472592b4e0c6a10bc2ca59535e497f97f",
+  "size_bytes": 2539024,
+  "sha256": "0009daf2917f95e89dd494779e4625b4e8651ac672595cb0638be9153f4074c5",
   "downloadURL_mirror": "https://github.com/zhimingpak/zhimingpak.github.io/raw/main/mac/StarryMac-latest.zip"
 }

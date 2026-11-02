@@ -15,16 +15,15 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 38,
-  "version_name": "1.16.0",
+  "latest_code": 39,
+  "version_name": "1.16.1",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3468057,
+  "size_bytes": 3468066,
   "force": false,
   "changelog": [
-    "【重构】改成插件化架构：主界面变成平台，只负责插件展示、入口管理、加载状态和生命周期；录音、照片、教程各自是独立插件",
-    "【插件】新增「插件」管理页：可单独启用/停用、检查更新、卸载；教程插件默认不上首页，在这里启用后出现",
-    "【能力】插件可单独更新：以后改一个功能只需下发几百 KB 的插件包，主程序和其他插件不用重新下载安装",
-    "【不变】录音、照片、教程的操作方式与 1.15.0 完全一致，设置里的保存位置、格式偏好沿用旧数据",
-    "【移动】主程序更新、激活、商城、联系微信集中到平台的「设置」页（原先散在录音设置里）"
+    "【修复】主界面顶部给系统状态栏留出空间：「星寻小工具」标题和右上角的「插件 / 设置」不再被时间、电量、信号图标压住",
+    "【适配】状态栏高度按机型自动取值（同时避开刘海 / 挖孔），不用写死高度，各种手机都不会挡",
+    "【不变】界面结构、配色、按钮位置与操作方式全部和上一版一致；录音、照片、教程插件不受影响",
+    "【1.16.0 已含】插件化架构：主界面是平台，录音、照片、教程各自是独立插件，可在「插件」页单独启用 / 更新 / 卸载"
   ]
 }

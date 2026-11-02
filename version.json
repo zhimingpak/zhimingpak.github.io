@@ -15,14 +15,15 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 33,
-  "version_name": "1.11.0",
+  "latest_code": 34,
+  "version_name": "1.12.0",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3383004,
+  "size_bytes": 3450870,
   "force": false,
   "changelog": [
-    "【新增】内置「学习教程」模块：首页标题连点 7 下开启入口，进入后在模块内用百度网盘授权，即可按分类看课程（分类 → 集 → 播放，自动记进度，可一键同步）。入口默认隐藏，只给内部团队用",
-    "【沿用】录音结束偶发不生成文件的问题已修复：只有文件真正存入媒体库才算保存成功，失败时保留原文件并如实提示，录音不会再凭空消失",
-    "其余与 1.10.1 一致：自选保存位置（音乐 / 录音 / 下载 / 文档 + 自定义子文件夹）、WAV / MP3 导出（128 / 192 / 320k）、默认录音格式记忆、应用内更新"
+    "【界面】教程模块整体重做，对齐网易爆米花的层次：首页「继续看」大封面卡、分类带封面缩略图和进度条；课程页是大封面 + 继续播放按钮 + 集卡片网格（封面、时长角标、进度条）",
+    "【播放】进入播放自动转横屏全屏，控件浮层 3.5 秒自动隐藏；支持锁定防误触、0.75~2 倍速、±10 秒、上/下一集、连播；横屏可从右侧滑出选集面板",
+    "【横屏】教程的列表和课程页横屏下自动改多列布局，随时旋转都跟手",
+    "录音、照片功能与 1.11.0 完全一致"
   ]
 }

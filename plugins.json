@@ -1,0 +1,12 @@
+{
+  "_readme": "插件单独更新的清单。App 的「插件 → 检查更新」会拉这份文件，比对每个插件的 versionCode，比已装的大就下载对应 dex 覆盖。改这个文件即可单独升级某一个插件，主程序和其他插件不受影响。",
+  "_readme_字段": {
+    "id": "插件 id，必须与插件代码里 descriptor.id 一致（record / photo / tutorial）",
+    "versionCode": "整数，必须大于内置版本才会被下载",
+    "versionName": "给人看的版本号",
+    "url": "dex 下载直链，必须 https 且域名在白名单里",
+    "sha256": "可选，填了会校验文件，不一致就放弃这次更新",
+    "note": "可选，更新说明"
+  },
+  "plugins": []
+}

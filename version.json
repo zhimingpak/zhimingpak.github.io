@@ -15,15 +15,15 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 35,
-  "version_name": "1.13.0",
+  "latest_code": 36,
+  "version_name": "1.14.0",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3450900,
+  "size_bytes": 3450919,
   "force": false,
   "changelog": [
-    "【修复】点播放直接被踢回列表的问题：进入播放会转横屏，但应用没声明「旋转不重建」，横屏一触发整个页面被销毁重建，播放状态全丢。现在转屏不再重建页面，就算万一被系统回收也会自动回到正在看的那一集",
-    "【界面】教程首页改成爆米花版式：顶部「最近观看」横滑大卡（剩余时长、进度条、中央播放键），下面每个分类一行横滑海报卡，点分区标题进课程页",
-    "【播放】顺手修了横竖屏切换时视频画面可能黑掉的问题",
-    "录音、照片功能与 1.12.0 完全一致"
+    "【修复】教程列表全是占位图、没有封面：取封面的接口参数写错了（写成了 thumbs，正确是 thumb），百度直接当没传。已改正，并顺带补上时长/分辨率信息",
+    "【封面】改成进场时批量预取（50 个一批 + 缓存），不再每集各问一次网盘，避免几百集撞上限流；大卡取清晰档、列表卡取省流量档",
+    "【兜底】个别视频网盘确实不吐封面时，播放中会自动截一帧存下来，以后列表里就有图了",
+    "录音、照片功能与 1.13.0 完全一致"
   ]
 }

@@ -15,14 +15,14 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 32,
-  "version_name": "1.10.1",
+  "latest_code": 33,
+  "version_name": "1.11.0",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3300407,
+  "size_bytes": 3383004,
   "force": false,
   "changelog": [
-    "【修复】录音结束后偶发不生成文件：收尾阶段媒体库写入失败时，旧版会把已录数据删掉却仍显示「已保存」。现在只有文件真正存入媒体库才算成功；失败时保留原文件并如实提示「保存失败」，不会再丢录音",
-    "保留 1.9 全部功能：录音可自选保存位置（音乐 / 录音 / 下载 / 文档 + 自定义子文件夹）、MP3 导出（128 / 192 / 320k）、默认录音格式记忆、接线指南挪进录音模块",
-    "【注意】本版基于 1.9 稳定分支，不含 1.10.0 的「时码器 / Tally、设备墙、同步设置、配色分区」；如需时码器请保留 1.10.0"
+    "【新增】内置「学习教程」模块：首页标题连点 7 下开启入口，进入后在模块内用百度网盘授权，即可按分类看课程（分类 → 集 → 播放，自动记进度，可一键同步）。入口默认隐藏，只给内部团队用",
+    "【沿用】录音结束偶发不生成文件的问题已修复：只有文件真正存入媒体库才算保存成功，失败时保留原文件并如实提示，录音不会再凭空消失",
+    "其余与 1.10.1 一致：自选保存位置（音乐 / 录音 / 下载 / 文档 + 自定义子文件夹）、WAV / MP3 导出（128 / 192 / 320k）、默认录音格式记忆、应用内更新"
   ]
 }

@@ -15,15 +15,15 @@
     "别把 apk_url 换成白名单外的域名——App 会当没填，静默不提示，你根本发现不了"
   ],
   "_readme_白名单": "允许填的域名（含子域名）：zhimingpak.github.io | taobao.com | tmall.com | tb.cn | douyin.com | jinritemai.com | iesdouyin.com | kuaishou.com | chenzhongtech.com | weidian.com | youzan.com | xiaohongshu.com | xhslink.com | jd.com | pinduoduo.com | yangkeduo.com | weixin.qq.com | wechat.com | myqcloud.com | tencentcos.cn",
-  "latest_code": 34,
-  "version_name": "1.12.0",
+  "latest_code": 35,
+  "version_name": "1.13.0",
   "apk_url": "https://zhimingpak.github.io/starseek-latest.apk",
-  "size_bytes": 3450870,
+  "size_bytes": 3450900,
   "force": false,
   "changelog": [
-    "【界面】教程模块整体重做，对齐网易爆米花的层次：首页「继续看」大封面卡、分类带封面缩略图和进度条；课程页是大封面 + 继续播放按钮 + 集卡片网格（封面、时长角标、进度条）",
-    "【播放】进入播放自动转横屏全屏，控件浮层 3.5 秒自动隐藏；支持锁定防误触、0.75~2 倍速、±10 秒、上/下一集、连播；横屏可从右侧滑出选集面板",
-    "【横屏】教程的列表和课程页横屏下自动改多列布局，随时旋转都跟手",
-    "录音、照片功能与 1.11.0 完全一致"
+    "【修复】点播放直接被踢回列表的问题：进入播放会转横屏，但应用没声明「旋转不重建」，横屏一触发整个页面被销毁重建，播放状态全丢。现在转屏不再重建页面，就算万一被系统回收也会自动回到正在看的那一集",
+    "【界面】教程首页改成爆米花版式：顶部「最近观看」横滑大卡（剩余时长、进度条、中央播放键），下面每个分类一行横滑海报卡，点分区标题进课程页",
+    "【播放】顺手修了横竖屏切换时视频画面可能黑掉的问题",
+    "录音、照片功能与 1.12.0 完全一致"
   ]
 }
